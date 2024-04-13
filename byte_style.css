@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: Square_;
+    src: url(Fonts/Square.ttf);
+}
+
+@keyframes fadeIn 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes clear 
+{
+    0% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+body{
+    background-color: #170e19;
+    color: #c0d1cc;
+    font-weight: 300;
+}
+
+
+.header{
+    opacity: 0;
+    position: inherit;
+    font-family: Square_;
+    background-color: #2f213b;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #433a60;
+
+    animation-name: fadeIn;
+    animation-delay: .2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.header a:link{
+    text-decoration: none;
+    color: #c0d1cc;
+}
+
+.header a:visited{
+    text-decoration: none;
+    color: #c0d1cc;
+}
+
+.header a:hover{
+    text-decoration: none;
+}
+
+.header a:active{
+    text-decoration: none;
+}
+
+.head
+{
+    opacity: 0;
+    text-align: center;
+    font-family: Square_;
+    padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+    animation-name: fadeIn;
+    animation-delay: .4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.icon{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
+.main-body{
+    opacity: 0;
+    text-align: center;
+    font-family: 'Open Sans';
+    padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+    animation-name: fadeIn;
+    animation-delay: .6s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.footer{
+    background-color: #2f213b;
+    text-align: left;
+    font-family: 'Open Sans';
+    padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: cover;
+}
+
+img {
+    
+}
+
+@keyframes img-up-down {
+    0% {
+        background-attachment: bottom;
+    }
+
+    100% {
+        background-attachment: top;
+    }
+}
+
+.parallax {
+    opacity: 0;
+    /* The image used */
+    background-image: url("Images/BYTE_Product_Image.png");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+
+    padding-top: 15px;
+
+    text-align: left;
+    text-indent: 50px;
+    font-family: Square_;
+
+    animation-name: fadeIn;
+    animation-delay: .4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+
+
+
+.divider
+{
+    opacity: 0;
+    border-top: 3px solid rgb(93, 93, 93);
+    width: 40%;
+    animation-name: fadeIn;
+    animation-delay: .4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
