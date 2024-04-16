@@ -147,6 +147,7 @@ body{
 .parallax {
     opacity: 0;
     /* The image used */
+    background-color: black;
     background:  url("Images/BYTE_Product_Image.png");
     
     /* Set a specific height */
@@ -169,6 +170,12 @@ body{
     animation-delay: .4s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
 }
 
 footer{
