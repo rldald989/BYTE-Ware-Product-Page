@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Square_;
-    src: url(Fonts/Square.ttf);
+    src: url(../Fonts/Square.ttf);
 }
 
 @keyframes fadeIn 
@@ -148,7 +148,7 @@ body{
     opacity: 0;
     /* The image used */
     background-color: black;
-    background:  url("Images/BYTE_Product_Image.png");
+    background:  url("../Images/BYTE_Product_Image.png");
     
     /* Set a specific height */
     min-height: 500px;
